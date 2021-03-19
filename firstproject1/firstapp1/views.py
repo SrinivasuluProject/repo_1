@@ -8,4 +8,6 @@ def show(request):
 
 
 def teju(x):
-    return HttpResponse('<h2 style="color: red">Myself is Tejaswini</h2>\n<h3>myself is teju</h3>\n<h4>myself is tej</h4>')
+    return HttpResponse('''  <h2 style="color: red">Myself is Tejaswini</h2>
+                        <h3>myself is teju</h3>
+                        <h4>myself is tej</h4>''')
