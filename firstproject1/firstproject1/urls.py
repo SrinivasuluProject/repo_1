@@ -20,5 +20,5 @@ from firstapp1 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('show/',views.show),
-    path('te/',views.teju),
+    path('teju/',views.teju),
 ]
